@@ -4,13 +4,11 @@ namespace Unity\Component\Dispatcher;
 
 class Dispatcher
 {
-    function next(ServerRequestInterface $request, DelegateInterface $delegate)
+    public function next(ServerRequestInterface $request, DelegateInterface $delegate)
     {
-
     }
 
-    function dispatch(ServerRequestInterface $request)
+    public function dispatch(ServerRequestInterface $request)
     {
-        
     }
 }
